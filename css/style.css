@@ -1,0 +1,115 @@
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Alfa Slab One', cursive;
+ */
+
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+/* Inicio */
+h1,h2,h3 {
+    font-family: 'Alfa Slab One', cursive;
+    text-shadow: 1px 1px 2px rgb(48, 197, 48);
+}
+p{
+    font-family:'Open Sans', sans-serif;
+    text-shadow: 1px 1px 2px rgb(48, 197, 48);
+    size: 24px;
+    stop-opacity: inherit;
+    
+}
+#texto {
+    background: rgba(255, 239, 215, 0.5); 
+    border-radius: 33px 33px 33px 33px;   
+}
+.text-alm{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.hero{
+    background: url(../img/fondo-mc.jpg) no-repeat;
+    background-size: cover;
+    height: 52.5vh;
+    min-height: 600px
+    color white;
+}
+/* Termina el inicio */
+
+/* Empieza novedades */
+.lista-novedades{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-novedades li{
+    margin: 4 px 0;
+}
+
+.lista-novedades li a {
+    background-color: rgb(204, 255, 145);
+    border-radius: 33px 33px 33px 33px;
+    font-family: 'Alfa Slab One', cursive;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #a0a0aa;
+    transition: all .2s ease-in-out;
+    display: block;
+}
+
+.lista-novedades li a:hover {
+    color: #212529;
+    background-color:rgb(123, 255, 82);
+}
+
+.lista-novedades li a img{
+    width: 120px;
+    height: 120px;
+    filter:grayscale();
+    transition: all .2s ease-in-out;
+    margin-right: 1rem;
+    opacity: 0.7;
+}
+
+.lista-novedades li a:hover img {
+    filter: none;
+    margin-right: 1.4rem;
+    opacity: 1;
+}
+/* Fin de novedades */
+
+/* Comienza el modal */
+.modal-body{
+    font-family: 'Open Sans', sans-serif;
+    background-color:rgba(248, 179, 31, 0.2);
+    text-align: center;
+}
+
+.img{
+    width: 300px;
+}
+h5{
+    text-shadow: 1px 1px 2px rgba(248, 179, 31, 0.5);
+}
+
+/* Comienza Nuestros Clientes */
+.clientes{
+    background-color: #dadada;
+    padding-bottom: 4rem !important;
+}
+
+.cliente {
+    text-align: center;
+    padding: 50px 20px;
+}
+/* Termina el modal */
+
+/* Pie de pagina */
+footer {
+    background-color: rgb(48, 197, 48);
+    color: white;
+    /* border: rgb(48, 197, 48); */
+}
+/* Termina pie de página */
