@@ -7,6 +7,29 @@ body{
     width: 100%;
     overflow-x: hidden;
 }
+/* Icono Instagram */
+.btn-ig{
+    position: fixed;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    bottom: 30px;
+    right: 30px;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+}
+
+.btn-ig:hover{
+    text-decoration: none;
+    color: #bc318f;
+    background: white;
+
+}
 /* Inicio */
 h1,h2,h3 {
     font-family: 'Alfa Slab One', cursive;
@@ -31,7 +54,7 @@ p{
 .hero{
     background: url(../img/fondo-mc.jpg) no-repeat;
     background-size: cover;
-    height: 52.5vh;
+    height: 55vh;
     min-height: 600px
     color white;
 }
@@ -96,8 +119,9 @@ h5{
 
 /* Comienza Nuestros Clientes */
 .clientes{
-    background-color: #dadada;
+    background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);;
     padding-bottom: 4rem !important;
+    height: 300px;
 }
 
 .cliente {
@@ -106,10 +130,16 @@ h5{
 }
 /* Termina el modal */
 
+/* Comienza productos */
+.producto{
+    background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+
+}
+/* Termina productos */
+
 /* Pie de pagina */
 footer {
     background-color: rgb(48, 197, 48);
-    color: white;
-    /* border: rgb(48, 197, 48); */
+    color: rgba(255, 255, 255, 0.966);
 }
 /* Termina pie de página */
